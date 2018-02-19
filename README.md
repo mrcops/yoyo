@@ -9,17 +9,15 @@ Made by Nolan Platt and being created for almost all live trivia game shows via 
 
 How does it works? It gets into into the live trivia game shows web-socket stream and automatically searches Google and Yahoo! for the correct answer using different searches. 
 
-
-Installing...
-
+```
+Install
 Clone/download zip of project file via GitHub
  cd LiveTriviaBot
  composer install
  cp .env.dist .env
-```
-
 **SET GAME IN `game.env.dist ` **
 
+```
 After you've created the .env file, fill in your Live Trivia Game(of your choice) user ID and bearer token. You can find your ID and token by sniffing the web traffic from your phone using a tool such as [Charles Proxy](https://www.charlesproxy.com/).
 
 Fill in token and ID in the .env file for specific game show.
@@ -37,5 +35,5 @@ Feel free to contribute to this project.
 
 ## Authors/Credits
 
-- [Mike Almond][link-author]
+- [Mike Almond][https://github.com/mikealmond]
 - [Nolan Platt][https://github.com/nolanplatt]
